@@ -14,6 +14,7 @@
 //Digite o numeros
 $Valor = readline('Digite os numeros: ');
 
+//calculando as notas
 $cem=  $Valor /100;
 
 $b= $Valor *100;
@@ -39,7 +40,7 @@ $dois=$j/2;
 $m_um=$j%2;
 
 
-
+//calculando centavos
 $E=$Valor*100;
 
 $B=(int) $E;
